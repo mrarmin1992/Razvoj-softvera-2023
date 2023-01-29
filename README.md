@@ -1,7 +1,4 @@
 # Razvoj-softvera-2023
-# API, 
-# SQL, 
-# Docker 
 
 
 https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/
