@@ -15,7 +15,7 @@ namespace eProdaja.Controllers
         {
             _proizvodService = proizvodService;
         }
-
+         
         [HttpGet]
 
         public IEnumerable<Proizvod> Get()
