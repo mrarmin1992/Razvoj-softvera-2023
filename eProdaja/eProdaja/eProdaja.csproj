@@ -11,10 +11,92 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.9" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.WebHost" Version="5.2.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="7.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cryptography.Internal" Version="7.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Routing" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration" Version="7.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.2" />
+    <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Localization" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Owin.Security.Cookies" Version="4.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Localization" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Owin.Security.OAuth" Version="4.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Owin.Host.SystemWeb" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="7.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.2" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.Core" Version="2.4.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Owin.Hosting" Version="4.2.2" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.OwinSelfHost" Version="5.2.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Owin.Security.Facebook" Version="4.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OAuth" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Owin.Security.Jwt" Version="4.2.2" />
+    <PackageReference Include="System.AppContext" Version="4.3.0" />
+    <PackageReference Include="Microsoft.Owin.Security.MicrosoftAccount" Version="4.2.2" />
+    <PackageReference Include="Microsoft.Owin.Security.Twitter" Version="4.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="3.1.32" />
+    <PackageReference Include="Microsoft.AspNetCore.Owin" Version="7.0.2" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Services\" />
+    <None Remove="Microsoft.Extensions.Hosting.Abstractions" />
+    <None Remove="Microsoft.AspNet.WebApi" />
+    <None Remove="Microsoft.Extensions.DependencyModel" />
+    <None Remove="Microsoft.AspNet.WebApi.WebHost" />
+    <None Remove="Microsoft.AspNetCore.Hosting.Abstractions" />
+    <None Remove="Microsoft.AspNetCore.Hosting.Server.Abstractions" />
+    <None Remove="Microsoft.Extensions.Localization" />
+    <None Remove="Microsoft.Extensions.Localization.Abstractions" />
+    <None Remove="Microsoft.AspNetCore.Routing.Abstractions" />
+    <None Remove="Microsoft.AspNetCore.Cryptography.Internal" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Core" />
+    <None Remove="Microsoft.AspNetCore.Routing" />
+    <None Remove="Microsoft.AspNetCore.Identity" />
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration" />
+    <None Remove="Microsoft.Extensions.Identity.Stores" />
+    <None Remove="Microsoft.AspNet.SignalR" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Localization" />
+    <None Remove="Microsoft.Owin.Security.Cookies" />
+    <None Remove="Microsoft.AspNetCore.Localization" />
+    <None Remove="Microsoft.Extensions.Identity.Core" />
+    <None Remove="Microsoft.Owin.Security.OAuth" />
+    <None Remove="Microsoft.AspNetCore.Mvc.ViewFeatures" />
+    <None Remove="Microsoft.Owin.Host.SystemWeb" />
+    <None Remove="Microsoft.Extensions.Diagnostics.HealthChecks" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Remove="Microsoft.AspNet.SignalR.Core" />
+    <None Remove="Microsoft.Extensions.Hosting" />
+    <None Remove="Microsoft.AspNetCore.Hosting" />
+    <None Remove="Microsoft.AspNetCore.Authentication.MicrosoftAccount" />
+    <None Remove="Microsoft.AspNetCore.Authentication.OpenIdConnect" />
+    <None Remove="Microsoft.Owin.Hosting" />
+    <None Remove="Microsoft.AspNet.WebApi.OwinSelfHost" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Testing" />
+    <None Remove="Microsoft.Owin.Security.Facebook" />
+    <None Remove="Microsoft.AspNetCore.Authentication.OAuth" />
+    <None Remove="Microsoft.Owin.Security.Jwt" />
+    <None Remove="System.AppContext" />
+    <None Remove="Microsoft.Owin.Security.MicrosoftAccount" />
+    <None Remove="Microsoft.Owin.Security.Twitter" />
+    <None Remove="Microsoft.AspNetCore.SpaServices" />
+    <None Remove="Microsoft.AspNetCore.Owin" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
